@@ -4,7 +4,8 @@ export const credit = (client: Client, message: Message): void => {
   const creditMessage = `
 🤖 *Bot Info*:
 - Dibuat oleh: riokentuahmi
-- GitHub: https://github.com/username
+- NPM : 210401002
+- GitHub: https://github.com/Rio-Git-D/BotWa-WWEBJS-Grub-Mahasiswa 
 - Teknologi: wweb.js
     `;
   client.sendMessage(message.from, creditMessage);
